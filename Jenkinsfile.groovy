@@ -5,7 +5,7 @@ node {
     env.AWS_DEFAULT_REGION = 'ap-southeast-1'
 	
 	def applicationName = 'diyon-app' //change me
-	def deploymentGroupName = 'diyon-diyon-group' // change me
+	def deploymentGroupName = 'diyon-app' // change me
 	def s3BucketName = 'deployment-cdc'
 	
 	//Cleanup workspace
